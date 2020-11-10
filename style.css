@@ -1,0 +1,636 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0px 0px 10px 2px black;
+    transition: all 0.3s linear;
+}
+
+ .navScroll{
+     background:linear-gradient(to right,blue,red);
+     color: white;
+     font-weight: bold;
+
+     
+ }
+.navbar-brand img{
+    width:7rem;
+    height: 6rem;
+}
+
+html{
+    font-size: 62.5%
+}
+.navbar a{
+    color: white;
+    font-size: 1.5rem;
+    
+}
+.nav-link{
+    transition: all 0.5s linear;
+}
+.nav-link:hover{
+    color: tomato;
+}
+ .mainBody{
+    width:100%;
+    padding: 2rem
+    
+}
+.services{
+    margin-top: 5rem;
+}
+
+.bodyInfo{
+    text-align: center;
+    
+}
+.bodyInfo img{
+    width:10rem;
+    height: 10rem;
+}
+.bodyImg div{
+    margin-bottom: 3rem;
+}
+.bodyInfo h1{
+    font-size: 5rem;
+    font-style: italic;
+    font-weight: bold;
+    color: tomato;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 8px black,0px 0px 7px tomato;
+}
+.bodyInfo h2,h3{
+    text-transform: uppercase;
+}
+ .bodyInfo p{
+     font-size: 2rem;
+     margin-top: 5rem;
+ }
+
+ .bodyImg div{
+     margin-bottom: 0rem;
+ }
+.bodyImg img{
+    width:20rem;
+    height:10rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.bodyImg p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.frontBody{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bgImg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     text-align: center;
+     color: white;
+     padding-bottom: 10rem;
+}
+.frontBody h1{
+    font-size:5rem;
+}
+.frontBody h1 span{
+    color: tomato;
+}
+.frontBody h6{
+    font-size: 2rem;
+}
+.frontBody img{
+   width: 40rem;
+   height: 30rem;
+   margin-top: 5rem;
+}
+
+#frontDiv{
+    margin-top: 5rem;
+}
+.frontBody div button{
+    width:10rem;
+    outline: none;
+    border:1px solid white;
+    background: tomato;
+    height:4rem;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    text-transform: uppercase;
+    color: white;
+    
+    
+}
+#num{
+    background: transparent;
+    color: tomato;
+    border: 1px solid tomato;
+    transition: all 0.5s linear;
+}
+#num:hover{
+    background: tomato;
+    color: white;
+    
+    border:1px solid white;
+}
+
+
+
+
+
+
+.gallerySection{
+    width: 100%;
+    
+    
+    background: black;
+    padding:5rem 0rem 1rem 0rem;
+}
+.img img{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.gallery h1, h4{
+    text-align: center;
+    color: white;
+}
+.galHead{
+    margin-top: 7rem;
+    
+}
+.gallery,h4{
+    margin-bottom: 5rem;
+
+}
+.gallery span{
+    color:tomato;
+}
+.gallery img{
+    width:30rem;
+    height: 20rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.galleryInfo{
+    width: 30rem;
+    background: tomato;
+    color: white;
+    text-align: center;
+    height:3rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform:capitalize;
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+    
+
+}
+.commitmentSection{
+    padding: 5rem;
+    
+}
+.commitHead{
+    margin-bottom: 5rem;
+}
+.commit h1 ,h2,p{
+    text-align: center;
+    text-transform: capitalize;
+}
+.commit p{
+    font-size:1.3rem;
+}
+.commit span{
+    color: tomato;
+}
+.commit img{
+    width:10rem;
+    height: 8rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.formSection{
+    width:100%;
+    padding:2rem;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(nature.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 5rem;
+}
+#firstHead{
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+#firstHead span{
+    color: tomato;
+}
+.form form{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height:35rem;
+     flex-flow: column;
+}
+.form form input{
+    width:70rem;
+    height:4rem;
+    border: 1px solid white;
+    padding-left:2rem;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    outline: none;
+    background:#463131;
+    color: white;
+}
+.form form button{
+    width:10rem;
+    height: 3rem;
+    background:tomato;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+
+}
+.formBtn button:hover{
+  background: tomato;
+}
+#note{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom:15rem;
+}
+#note span{
+    font-weight: bold;
+}
+.formhead{
+    width: 100%;
+    height:15rem;
+    padding: 6rem 8rem;
+    background: palegoldenrod;
+    margin-bottom:10rem;
+
+
+}
+.clients{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.testimonials h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.testimonials span{
+    color: tomato;
+}
+.mainTest p{
+    color: white;
+    font-size: 1.5rem;
+    margin-top:10rem;
+    margin-bottom: 5rem;
+}
+.formBtn{
+    width: 15rem;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 5rem;
+}
+.formBtn button{
+    width:2rem;
+    height:2rem;
+    border-radius: 1rem;
+    color: white;
+    border: none;
+    outline: none;
+}
+.lastMain{
+    padding:2rem;
+}
+.lastHead{
+    text-align: center;
+
+}
+.lastHead p{
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+}
+.lastHead h1{
+    text-transform: uppercase;
+    margin-top: 5rem;
+}
+.lastHead h1 span{
+    color:tomato;
+}
+
+.infoOne h1,.infoTwo h1{
+    font-size:2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.infoOne img ,.infoTwo img{
+    width:10rem;
+    height:10rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.contactSection{
+    background: black;
+    color: white;
+    padding: 2rem 0rem;
+    
+}
+.contactSection h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+.contactSection h1 span{
+    color: tomato;
+}
+.contactSection h2{
+    color: tomato;
+}
+.contactBtn{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top:3rem;
+}
+.contactBtn button{
+    width: 10rem;
+    height: 3rem;
+    background: tomato;
+    color: white;
+    border: none;
+    outline:none;
+    border-radius:0.5rem;
+    margin-bottom:3rem;
+
+}
+
+.video video{
+    width:56rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+.footer{
+    padding-top: 10rem;
+    background: cornsilk;
+}
+
+figure img{
+    width:56rem;
+    height:32rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+
+    
+}
+.footer h2{
+    text-align: center;
+    margin-top:5rem;
+}
+
+@media screen and (max-width:1200px){
+
+    .video video{
+        width:40rem;
+        
+        
+    }
+    figure img{
+        width: 40rem;
+        height: 225px;
+        
+        
+    
+        
+    }
+
+}
+
+@media screen and (max-width:1024px){
+
+    .video video{
+        width:40rem;
+        
+        
+    }
+    figure img{
+        width: 40rem;
+        height: 225px;
+        
+        
+    
+        
+    }
+}
+
+.nav a{
+    font-size: 1rem;
+}
+
+
+@media screen and (max-width:990px){
+    .video video{
+        width:30rem;
+        
+        
+    }
+    figure img{
+        width: 30rem;
+        height: 168px;
+        
+        
+    
+        
+    }
+    .navbar-nav a{
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .form form input{
+        width:37rem;
+    }
+    .navbar-nav a{
+        font-size: 0.7rem;
+    }
+    .gallery img{
+        width: 19rem;
+
+    }
+    .galleryInfo{
+        width: 19rem;
+
+    }
+    .video video{
+        width:30rem;
+        
+        
+    }
+    figure img{
+        width: 30rem;
+        height: 16.8rem;
+        
+    
+        
+    }
+
+    
+}
+
+
+@media screen and (max-width:425px){
+    .form form input{
+        width:37rem;
+    }
+    .formhead{
+        display: none;
+    }
+    .video video{
+        width:35rem;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        
+    }
+    figure img{
+        width: 35rem;
+        position: relative;
+        
+    
+        
+    }
+    .bodyInfo h1{
+        font-size:3rem;
+    }
+        
+    
+
+}
+
+@media screen and (max-width:375px){
+
+
+    .form form input{
+        width:300px;
+    }
+    .formhead{
+        display: none;
+    }
+    .video video{
+        width:30rem;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        
+    }
+    figure img{
+        width: 30rem;
+        position: relative;
+      
+    
+        
+    }
+
+    .bodyInfo h1{
+        font-size:3rem;
+    }
+        
+
+}
+
+@media screen and (max-width:320px){
+
+    .frontBody img{
+        width:28rem;
+    }
+    .form form input{
+        width:20rem;
+    }
+    .formhead{
+        display: none;
+    }
+    .img img{
+        width:20rem;
+        height:10rem;
+        position: relative;
+        left:50%;
+        transform:translate(-50%);
+
+    }
+    .img h1{
+        font-size: 1rem;
+    }
+    .lastMain .container{
+        margin-top: 10rem;
+    }
+    .contactBtn button{
+        width: 9rem;
+    }
+    .video video{
+        width:28rem;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        
+    }
+    figure img{
+        width: 28rem;
+        position: relative;
+        
+    }
+    .bodyInfo h1{
+        font-size: 2.5rem;
+    }
+    .commit h1{
+        font-size: 2rem;
+    }
+    #comPara{
+        margin-bottom: 3rem;
+    }
+    #note{
+        margin-top: 2rem;
+    }
+    .contactSection h1{
+        font-size:2rem;
+    }
+}
+
+
+@media screen and(max-width:250px){
+    .form form input{
+        width:15rem;
+    }
+}
+
+
